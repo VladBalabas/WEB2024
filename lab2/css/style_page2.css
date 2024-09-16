@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+a {
+    color: brown;
+}
+
+span {
+    color: blue;
+}
+
+.paragraph1 {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.paragraph2 {
+    font-style: italic;
+}
+
+.img_left {
+    float: left;
+}
+
+.img_right {
+    float: right;
+}
