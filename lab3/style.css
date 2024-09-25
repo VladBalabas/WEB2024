@@ -1,0 +1,202 @@
+
+body, html {
+    background-color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+    font-family: 'Nunito', cursive;
+    font-size: 24px;
+    text-align: justify;
+}
+
+hr {
+    height: 3px;
+    width: 1000px;
+    background-color: white;
+}
+
+header, nav {
+    background-color: #403D39;
+    height: 160px;
+    width: 720px;
+    text-align: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    list-style: none;
+    padding-left: 100px;
+}
+
+.nav-menu li {
+    flex: 1 1 45%; 
+    text-align: left;
+    margin: 10px; 
+}
+
+.nav-menu a {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.nav-menu, a:hover {
+    color: #ffbf00; 
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-line {
+    width: 3px; 
+    height: 160px; 
+    background-color: white; 
+}
+
+main {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.about-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-author img {
+    height: 390px;
+    margin-right: 100px;
+}
+
+.about-author p{
+    width: 760px;
+}
+
+.main-works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-works-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-works-text h3 {
+    margin: 0;
+}
+
+#ballade1-img {
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+#marche-img {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.main-works p {
+    font-size: 20px
+}
+
+.useful-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.useful-links-block{
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+}
+
+.useful-links-block img {
+    width: 330px;
+    height: 350px;
+}
+
+.useful-links-block p {
+    text-align: center;
+}
+
+footer {
+    background-color: #403D39;
+    height: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.footer-info {
+    height: 50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
+
+footer h2{
+    margin: 0;
+    margin-bottom: 10;
+}
+
+.footer-icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.footer-icon-text a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer-icon-text a:hover {
+    color: #ffbf00; 
+    text-decoration: underline;
+}
