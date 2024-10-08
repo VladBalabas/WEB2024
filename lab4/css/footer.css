@@ -1,0 +1,118 @@
+footer {
+    height: var(--footer-height);
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-info {
+    height: var(--footer-about-height);
+    width: var(--footer-info-width);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-about-help-more {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.footer-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-text-block h4 {
+    text-transform: uppercase;
+}
+
+.footer-text-block-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-block-links a {
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    text-decoration: none;
+    
+}
+
+.footer-subscription-block {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer-subscription-block-button {
+    width: 237px;
+    height: 25px;
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    color: black; 
+    background-color: white; 
+    border: 2px solid black; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-subscription-block-button:hover {
+    color: white; 
+    border: 2px solid white; 
+    background-color: black; 
+}
+
+.fsc-and-otp {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.fsc-and-otp img{
+    height: 66px;
+    width: 66px;
+}
+
+.trustpilot-img {
+    height: 35px;
+    width: 200px;
+}
+
+.footer-copyright {
+    height: var(--footer-copyright-height);
+    width: var(--footer-info-width);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright a {
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    text-decoration: none;
+    
+}
+
+.payment-img {
+    width: 360px;
+    height: 30px;
+}

@@ -1,0 +1,48 @@
+
+.info-block {
+    height: var(--main-info-block-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-text-block {
+    height: 50px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#free-shipping-img {
+    height: 30px;
+    width: 60px;
+}
+
+#awarded-product-img {
+    height: 50px;
+    width: 50px;
+}
+
+#eco-friendly-img {
+    height: 42px;
+    width: 34px;
+}
+
+#spain-img {
+    height: 50px;
+    width: 50px;
+}
+
+#star-img {
+    height: 50px;
+    width: 50px;
+}
+
+.info-text-block h6 {
+    margin-left: 20px;
+    font-family: var(--font-family-roboto);
+    font-size: 13px;
+}

@@ -1,0 +1,34 @@
+
+.aside1 {
+    height: var(--main-aside1-height);
+    display: flex;
+    flex-direction: row;
+}
+
+.aside1-info-block img {
+    height: 97px;
+    width: 97px;
+}
+
+.aside1-info-block {
+    height: var(--main-aside1-height);
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.aside1-info-block h3 {   
+    text-transform: uppercase;
+}
+
+.aside1-info-block p {
+    width: 283px;
+    text-align: center;
+}
+
+.aside1-info-block a {
+    font-size: 15px;
+}

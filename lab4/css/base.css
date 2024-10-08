@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Кольори */
+    --white: white;
+    --light-grey1: #F7F7F7;
+    --light-grey2: #F8F8F8;
+    --dark-grey: #E9E9E9;
+    --black: black;
+    --red: #BC1414;
+
+    --text-dark-grey: #525252;
+
+
+    /* Шрифти та їх розміри */
+    --font-family-cardo: "Cardo";
+    --font-family-roboto: "Roboto";
+
+    /* Roboto */
+    --font-size-h1: 32px;
+    --font-size-h2: 27px;
+    --font-weight1: 700;
+
+    /* Cardo */
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-h5: 18px;
+    --font-size-h6: 16px;
+
+    --font-size-p: 15px;
+
+    --font-weight2: 400;
+
+    /* Розміри сайту */
+    --width: 1440px;
+
+    --header-height: 105px;
+    --header-nav-height: 69px;
+    --header-text-height: 42px;
+
+    --header-title-height: 36px;
+
+    --main-bed-img-height: 700px;
+
+    --main-info-block-height: 155px;
+
+    --main-rooms-img-height: 320px;
+    --main-rooms-img-width: 360px;
+    
+    --main-section-img-height: 542px;
+    --main-section-img-width: 960px;
+
+    --main-tag-us-height: 742px;
+    --main-tag-us-width: 1120px;
+    --main-tag-us-img-height: 550px;
+    --main-tag-us-img-width: 367px;
+
+    --main-quotes-height: 312px;
+
+    --main-aside1-height: 370px;
+    --main-aside2-height: 315px;
+
+    --footer-height: 448px;
+    --footer-info-width: 1140px;
+
+    --footer-about-height: 284px;
+    --footer-copyright-height: 104px
+
+}

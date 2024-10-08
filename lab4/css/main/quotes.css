@@ -1,0 +1,22 @@
+
+.quotes {
+    height: var(--main-quotes-height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 50px
+}
+
+.quotes h4 {
+    width: 1190px;
+    font-style: italic;
+    text-align: center;
+}
+
+#quotes-progress-img {
+    height: 11px;
+    width: 700px;
+}
