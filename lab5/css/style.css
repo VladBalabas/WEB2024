@@ -1,0 +1,55 @@
+@import url(base.css);
+@import url(reset.css);
+
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+body {
+    margin: auto;
+    max-width: var(--width);
+}
+
+.container {
+    width: var(--width);
+    background-color: var(--light-grey1);
+}
+
+h1, h2 {
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight1);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3, h4, h5, h6, p, li {
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+h4 {
+    font-size: var(--font-size-h4);
+}
+
+h5 {
+    font-size: var(--font-size-h5);
+}
+
+h6 {
+    font-size: var(--font-size-h6);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+

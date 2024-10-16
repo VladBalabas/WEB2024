@@ -1,0 +1,26 @@
+
+.rooms {
+    display: flex;
+    flex-direction: row;
+    height: var(--main-rooms-img-height);
+    width: 95%;
+    gap: 5px;
+}
+
+.rooms img {
+    width: var(--main-rooms-img-width);
+}
+
+
+@media screen and (max-width: 1250px) {
+    .rooms {
+        scroll-snap-type: x mandatory; 
+        overflow-x: auto; 
+        gap: 10px; 
+        
+    }
+
+    .rooms img {
+        width: 90%; 
+    }
+}

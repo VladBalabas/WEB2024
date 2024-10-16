@@ -1,0 +1,27 @@
+
+.quotes {
+    height: var(--main-quotes-height);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}
+
+.quotes h4 {
+    width: 80%;
+    font-style: italic;
+    text-align: center;
+}
+
+#quotes-progress-img {
+    height: 11px;
+    width: 700px;
+}
+
+@media screen and (max-width: 1250px) {
+    #quotes-progress-img {
+        display: none;
+    }
+}

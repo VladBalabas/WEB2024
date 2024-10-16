@@ -1,0 +1,68 @@
+
+.main-bed {
+    height: var(--main-bed-img-height);
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(/assets/main/main_bed/main_bed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+
+}
+
+.main-bed-text-info {
+    width: 90%;
+    max-width: 807px;
+    height: auto;
+    max-height: 77px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 100px;
+}
+
+.discover-button {
+    width: auto;
+    width: 204px;
+    height: 33px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white; 
+    background-color: transparent; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.discover-button:hover {
+    background-color: white; 
+    color: black; 
+}
+
+.black-box-button {
+    width: 324px;
+    height: 50px;
+    background-color: var(--black);
+    color: var(--white);
+    position: absolute; 
+    bottom: 0px; 
+    left: 20px;
+}
+
+.black-box-button:hover {
+    background-color: white; 
+    color: black; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media screen and (max-width: 700px) {
+    .black-box-button {
+        left: 50%; 
+        transform: translateX(-50%);
+    }
+}

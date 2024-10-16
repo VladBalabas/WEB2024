@@ -1,0 +1,24 @@
+.aside2 {
+    height: var(--main-aside2-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.aside2 img {
+    height: 104px;
+}
+
+.aside2 h4 {
+    color: #454545;
+}
+
+@media screen and (max-width: 1145px){
+    .aside2 {
+        display: none;
+    }
+
+    
+}

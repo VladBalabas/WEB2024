@@ -1,0 +1,165 @@
+footer {
+    height: auto;
+    padding: 2%;
+    /* height: var(--footer-height); */
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-info {
+    height: auto;
+    /* height: var(--footer-about-height); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-about-help-more {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 1%;
+}
+
+.footer-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-text-block h4 {
+    text-transform: uppercase;
+}
+
+.footer-text-block-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-block-links a {
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    text-decoration: none;
+    
+}
+
+.footer-subscription-block {
+    width: auto;
+    max-width: 340px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer-subscription-block-button {
+    max-width: 237px;
+    width: auto;
+    height: 25px;
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    color: black; 
+    background-color: white; 
+    border: 2px solid black; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-subscription-block-button:hover {
+    color: white; 
+    border: 2px solid white; 
+    background-color: black; 
+}
+
+.fsc-and-otp {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.fsc-and-otp img{
+    height: auto;
+    max-height: 66px;
+    width: auto;
+    max-width: 66px;
+}
+
+.trustpilot-img {
+    height: 35px;
+    width: 200px;
+}
+
+.footer-copyright {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-copyright a {
+    font-family: var(--font-family-cardo);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size-p);
+    text-decoration: none;
+    text-align: center;
+    order: 1;
+}
+
+.payment-img {
+    width: auto;
+    height: 30px;
+    order: 2;
+}
+
+.footer-copyright p {
+    order: 3;
+}
+
+@media screen and (max-width: 1250px) {
+    .footer-copyright {
+        margin-top: 2%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-copyright a {
+        font-size: 13px;
+        order: 1;
+    }
+
+    .payment-img {
+        order: 2; 
+    }
+
+    .footer-copyright p {
+        order: 3; 
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .footer-text-block-links a {
+        font-size: 10px;
+    }
+}

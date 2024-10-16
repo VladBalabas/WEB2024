@@ -1,0 +1,22 @@
+@import url(main/main_bed.css);
+@import url(main/info_block.css);
+@import url(main/rooms.css);
+@import url(main/sections.css);
+@import url(main/tag_us.css);
+@import url(main/quotes.css);
+@import url(main/aside1.css);
+@import url(main/aside2.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
