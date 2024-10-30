@@ -1,0 +1,46 @@
+
+body {
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+h1, h2, label, legend, div, table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b-header {
+    display: grid;
+    text-align: center;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.b-div-zadanie {
+    font-size: medium;
+    padding: 15px;
+}
+
+.b-button {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.2s ease-out;
+
+}
+
+.b-button:hover {
+    background-color: rgb(172, 122, 61);
+
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
