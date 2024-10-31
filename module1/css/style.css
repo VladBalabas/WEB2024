@@ -1,0 +1,8 @@
+@import url(/css/reset.css);
+@import url(/css/header-nav.css);
+@import url(/css/main.css);
+@import url(/css/aside-footer.css);
+
+:root {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

@@ -1,0 +1,71 @@
+.container__aside-footer {
+    display: flex;
+    height: auto;
+    background-color: rgb(46, 4, 80);
+    padding: 20px;
+    color: #fff;
+}
+
+.footer {
+    width: 100%; /* Ширина на 100% для адаптивности */
+    text-align: center; 
+    font-size: 18px;
+    line-height: 2.0; 
+    margin: 10px 0; /* Отступ сверху и снизу */
+}
+
+.footer a {
+    color: #ffdd00; 
+    text-decoration: underline; 
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fff; 
+}
+
+.aside {
+    width: 100%; /* Ширина на 100% для адаптивности */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; /* Добавить отступ сверху */
+}
+
+h3 {
+    font-size: large;
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    gap: 15px; 
+    justify-content: center; /* Центрируем элементы по горизонтали */
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    background-color: #fff; 
+    color: #333; 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    transition: background-color 0.3s, color 0.3s; 
+    font-size: 24px; 
+}
+
+.social-icon:hover {
+    background-color: #333; 
+    color: #fff; 
+}
+
+@media screen and (max-width: 768px) {
+
+    .container__aside-footer {
+        flex-direction: column;
+    }
+}
