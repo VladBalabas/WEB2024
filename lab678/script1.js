@@ -1,7 +1,7 @@
 const friends = [
     { name: "Іван", birthDate: "2024-10-30", phone: "123456789" },
     { name: "Марія", birthDate: "2024-10-31", phone: "" },
-    { name: "Олег", birthDate: "2024-11-01", phone: "987654321" },
+    { name: "Олег", birthDate: "2024-11-06", phone: "987654321" },
     { name: "Нікіта", birthDate: "2024-10-31", phone: "" },
 ];
 

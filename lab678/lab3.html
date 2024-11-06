@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="lab3.css">
+</head>
+
+<body>
+    <main class="b-main">
+        <header class="b-header">
+            <h1>Лабораторна робота №3. Javascript</h1>
+            <h2>Виконав студент групи АнД-31 Балабась В.А.</h2>
+        </header>
+        <ul class="menu-main">
+            <li><a href="index.html">Лабораторна робота №1</a></li>
+            <li><a href="lab2.html">Лабораторна робота №2</a></li>
+            <li><a href="lab3.html">Лабораторна робота №3</a></li>
+        </ul>
+        <h2>Завдання на лабораторну роботу</h2>
+        <div class="b-div-zadanie">
+            1. Базовий клас: Квартира (поля: назва, вартість 1м<sup>2</sup> , площа)
+            <br>Метод: Вартість квартири.
+            <br>Нащадок: Квартира в центрі (поле назву району)
+            <br>Зміни в нащадках: Збільшити вартість з урахуванням надбавки за місце
+            розташування на 0.01 вартості квартири.
+        </div>
+        <div class="main-form">
+            <div class="main-container">
+                <form id="apartmentForm" class="form">
+                    <label for="apartmentName">Назва квартири:</label>
+                    <input type="text" id="apartmentName" required>
+
+                    <label for="pricePerSquareMeter">Вартість за 1м<sup>2</sup>:</label>
+                    <input type="number" id="pricePerSquareMeter" min="1" required>
+
+                    <label for="area">Площа (м<sup>2</sup>):</label>
+                    <input type="number" id="area" min="1" required>
+
+                    <label for="location">Тип квартири:</label>
+                    <select id="location">
+                        <option value="regular">Звичайна</option>
+                        <option value="center">В центрі</option>
+                    </select>
+
+                    <button type="button" onclick="calculatePrice()">Розрахувати вартість</button>
+                </form>
+
+                <div id="result" class="result"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="lab2.css">
+    
+</head>
+<body>
+    <main class="b-main">
+        <header class="b-header">
+            <h1>Лабораторна робота №2. Javascript</h1>
+            <h2>Виконав студент групи АнД-31 Балабась В.А.</h2>
+        </header>
+        <ul class="menu-main">
+            <li><a href="index.html">Лабораторна робота №1</a></li>
+            <li><a href="lab2.html">Лабораторна робота №2</a></li>
+            <li><a href="lab3.html">Лабораторна робота №3</a></li>
+        </ul>
+        <h2>Завдання на лабораторну роботу</h2>
+        <div class="b-div-zadanie">
+            На Вашій сторінці є поле вводу, у яке через кому вводяться назви країн.
+            <br> При натисканні на кнопку зробіть так, щоб ці країни записалися в список ul під поле (кожна країна –
+            окремий li).
+        </div>
+        <div class="task1">
+            <label for="countriesInput">Введіть назви країн через кому:</label>
+            <input type="text" id="countriesInput" placeholder="Країна1, Країна2, ...">
+            <button class="b-button" onclick="addCountries()">Додати країни</button>
+            <ul id="countriesList"></ul>
+        </div>
+
+        <div class="b-div-zadanie">
+            Дана таблиця з числами. При натисканні на кнопку знайдіть
+            <br> комірку, в якій зберігається максимальне число, і зробіть її фон червоним.
+        </div>
+        <div class="b-div-zadanie">
+            <table id="numbersTable">
+                <tr>
+                    <td>5</td>
+                    <td>9</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <button class="b-button" onclick="highlightMax()">Знайти максимум</button>
+        </div>
+    </main>
+</body>
+<script src="script2.js"></script>
+</html>
