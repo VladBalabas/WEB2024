@@ -1,0 +1,24 @@
+<div class="container-task">
+  <h1>Завдання</h1>
+  <p class="task-description">1. Дано цілочисельний масив X [1..5, 1..4]. Замінити в ньому всі елементи,
+    менші 5 числом 111.</p>
+</div>
+<div>
+  <h3>Виберіть розміри масиву</h3>
+  <label for="rows">Кількість рядків: </label>
+  <input id="rows" type="number" [(ngModel)]="rows" min="1" max="5" />
+  <br />
+  <label for="cols">Кількість стовпців: </label>
+  <input id="cols" type="number" [(ngModel)]="cols" min="1" max="4" />
+  <br />
+  <button (click)="generateArray()">Згенерувати масив</button>
+
+  <h3>Масив:</h3>
+  <table border="1">
+    <tr *ngFor="let row of array">
+      <td *ngFor="let cell of row">{{ cell }}</td>
+    </tr>
+  </table>
+
+  <button (click)="replaceElements()">Змінити елементи < 5 на 111</button>
+</div>

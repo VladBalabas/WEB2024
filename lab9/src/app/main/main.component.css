@@ -1,0 +1,91 @@
+.b-div-zadanie {
+    font-size: medium;
+    padding: 15px;
+}
+
+.b-button {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.2s ease-out;
+
+}
+
+.b-button:hover {
+    background-color: rgb(172, 122, 61);
+
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1, h2, label, legend, div, table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-form {
+    display: grid;
+    place-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header h1, .header h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.form input, .form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}

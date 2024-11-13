@@ -1,0 +1,81 @@
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2,
+h3 {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #555;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.numbers-output {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 10px;
+}
+
+.average-output {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+.container-task {
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.task-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}

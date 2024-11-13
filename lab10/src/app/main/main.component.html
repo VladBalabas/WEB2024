@@ -1,0 +1,32 @@
+<div class="container-task">
+    <h1>Завдання</h1>
+    <p class="task-description">1. Базовий клас: Квартира (поля: назва, вартість 1м<sup>2</sup> , площа)
+        <br>Метод: Вартість квартири.
+        <br>Нащадок: Квартира в центрі (поле назву району)
+        <br>Зміни в нащадках: Збільшити вартість з урахуванням надбавки за місце
+        розташування на 0.01 вартості квартири.</p>
+</div>
+<div class="main-form">
+    <div class="main-container">
+        <form id="apartmentForm" class="form">
+            <label for="apartmentName">Назва квартири:</label>
+            <input type="text" id="apartmentName" required>
+
+            <label for="pricePerSquareMeter">Вартість за 1м<sup>2</sup>:</label>
+            <input type="number" id="pricePerSquareMeter" min="1" required>
+
+            <label for="area">Площа (м<sup>2</sup>):</label>
+            <input type="number" id="area" min="1" required>
+
+            <label for="location">Тип квартири:</label>
+            <select id="location">
+                <option value="regular">Звичайна</option>
+                <option value="center">В центрі</option>
+            </select>
+
+            <button type="button" (click)="calculatePrice()">Розрахувати вартість</button>
+        </form>
+
+        <div class="result">{{ result }}</div>
+    </div>
+</div>

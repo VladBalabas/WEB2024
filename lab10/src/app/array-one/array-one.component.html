@@ -1,0 +1,24 @@
+<div class="container-task">
+    <h1>Завдання</h1>
+    <p class="task-description">1. Введіть з клавіатури в масив п'ять цілочисельних значень. Виведіть їх в один рядок через кому. Отримайте для масиву середнє арифметичне.</p>
+</div>
+<div class="container">
+    <h2>Введіть 5 цілих чисел:</h2>
+    
+    <div *ngFor="let number of arrayOne.numbers; let i = index" class="input-group">
+      <label for="input-{{i}}" class="input-label">Число {{i + 1}}:</label>
+      <input 
+        id="input-{{i}}" 
+        type="number" 
+        [value]="number" 
+        (input)="arrayOne.updateNumbers($event, i)" 
+        class="input-field" 
+        placeholder="Введіть число" />
+    </div>
+  
+    <h3>Масив чисел:</h3>
+    <p class="numbers-output">{{ arrayOne.getNumbersString() }}</p>
+  
+    <h3>Середнє арифметичне:</h3>
+    <p class="average-output">{{ arrayOne.average }}</p>
+  </div>
