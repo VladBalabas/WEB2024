@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Гаррі Поттер і філософський камінь",
+      "author": "Дж. К. Ролінґ",
+      "year": 1997,
+      "genre": "Фентезі",
+      "cover": "./Image/harry_potter.png"
+    },
+    {
+      "id": 2,
+      "title": "Убити пересмішника",
+      "author": "Гарпер Лі",
+      "year": 1960,
+      "genre": "Роман",
+      "cover": "./Image/to_kill_a_mockingbird.png"
+    },
+    {
+      "id": 3,
+      "title": "Гордість і упередження",
+      "author": "Джейн Остін",
+      "year": 1813,
+      "genre": "Роман",
+      "cover": "./Image/pride_and_prejudice.png"
+    },
+    {
+      "id": 4,
+      "title": "451° за Фаренгейтом",
+      "author": "Рей Бредбері",
+      "year": 1953,
+      "genre": "Наукова фантастика",
+      "cover": "./Image/fahrenheit_451.png"
+    },
+    {
+      "id": 5,
+      "title": "Алхімік",
+      "author": "Пауло Коельйо",
+      "year": 1988,
+      "genre": "Філософський роман",
+      "cover": "./Image/the_alchemist.png"
+    },
+    {
+        "id": 6,
+        "title": "Маленький принц",
+        "author": "Антуан де Сент-Екзюпері",
+        "year": 1943,
+        "genre": "Філософська казка",
+        "cover": "./Image/little_prince.png"
+      },
+      {
+        "id": 7,
+        "title": "Великий Гетсбі",
+        "author": "Френсіс Скотт Фіцджеральд",
+        "year": 1925,
+        "genre": "Роман",
+        "cover": "./Image/great_gatsby.png"
+      },
+      {
+        "id": 8,
+        "title": "Сторонній",
+        "author": "Альбер Камю",
+        "year": 1942,
+        "genre": "Екзистенціалізм",
+        "cover": "./Image/the_stranger.png"
+      }
+  ]
